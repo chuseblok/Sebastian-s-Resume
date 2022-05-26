@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Navbar({ currentPage, handlePageChange }) {
   const linkStyle = { border: "", padding: "" };
@@ -35,7 +35,7 @@ function Navbar({ currentPage, handlePageChange }) {
           </a>
         </div>
         <div style={linkStyle}>
-          <a href='https://github.com/chuseblok/Sebastian-s-Resume'>Resume</a>
+          <a href='https://github.com/chuseblok/Resume'>Resume</a>
         </div>
 
         <a
